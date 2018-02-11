@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57227" started-at="2018-02-11T18:22:12Z" finished-at="2018-02-11T18:23:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57227" started-at="2018-02-11T18:22:12Z" finished-at="2018-02-11T18:23:09Z">
+      <class name="com.redPanda.Assignmen1.TestCases">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:com.redPanda.Assignmen1.TestCases@2a5ca609]" name="setupDriver" is-config="true" duration-ms="1938" started-at="2018-02-11T23:52:10Z" finished-at="2018-02-11T23:52:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="verifyAdvanceSearch()[pri:0, instance:com.redPanda.Assignmen1.TestCases@2a5ca609]" name="verifyAdvanceSearch" duration-ms="21724" started-at="2018-02-11T23:52:12Z" finished-at="2018-02-11T23:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdvanceSearch -->
+        <test-method status="PASS" signature="Verify3waySearch()[pri:0, instance:com.redPanda.Assignmen1.TestCases@2a5ca609]" name="Verify3waySearch" duration-ms="6982" started-at="2018-02-11T23:52:34Z" finished-at="2018-02-11T23:52:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify3waySearch -->
+        <test-method status="PASS" signature="verifyIMDB_Top250()[pri:0, instance:com.redPanda.Assignmen1.TestCases@2a5ca609]" name="verifyIMDB_Top250" duration-ms="28489" started-at="2018-02-11T23:52:41Z" finished-at="2018-02-11T23:53:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIMDB_Top250 -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.redPanda.Assignmen1.TestCases@2a5ca609]" name="closeDriver" is-config="true" duration-ms="1" started-at="2018-02-11T23:53:10Z" finished-at="2018-02-11T23:53:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.redPanda.Assignmen1.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
