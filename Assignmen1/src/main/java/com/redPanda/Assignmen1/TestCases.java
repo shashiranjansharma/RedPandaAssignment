@@ -150,7 +150,7 @@ public class TestCases
 	         while ( rs.next() ) {
 	         int id = rs.getInt("ID");
 	         String  name1 = rs.getString("NAME");
-	         int year1  = rs.getInt("YEAR");
+	         String year1  = rs.getString("YEAR");
 	         float rating1 = rs.getFloat("RATING");
 	         
 	         System.out.println( "ID = " + id );
