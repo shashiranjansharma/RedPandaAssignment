@@ -108,7 +108,7 @@ public class TestCases
 		List<WebElement> year = driver.findElements(By.className("lister-item-year"));
 		ArrayList<String> years = new ArrayList<String>();
 		for(WebElement e : year){
-			years.add(e.getText());
+			years.add(e.getText().replace("(", "").replace(")", ""));
 		}
 		List<WebElement> rating = driver.findElements(By.className("ratings-imdb-rating"));
 		ArrayList<String> ratings = new ArrayList<String>();
@@ -139,8 +139,6 @@ public class TestCases
 	       for(int i=0; i<size; i++){
 	    	   sql = "INSERT INTO IMDB_Top250 (ID,NAME,YEAR,RATING) " +
                        "VALUES ("+indexed.get(i) +", '"+names.get(i) +"', '"+years.get(i) +"', '"+ratings.get(i)+"');"; 
-	    	   String st = (i+1) +", '"+names.get(i) +"', '"+years.get(i) +"', '"+ratings.get(i);
-	    	   System.out.println(st);
 	    	   stmt.executeUpdate(sql);
 			}
 	       System.out.println("Table updated successfully");
