@@ -15,4 +15,4 @@
 2. Gecodriver.exe and chromedriver.exe should be in the Resource folder of the project.
 3. config.properties file should be there in the Resource folder of the project.
 4. Create a folder name "SqLite" inside the test-output folder
-5. Change the path for drivers in MyDriver.java in initiate() method
+5. Change the path for drivers in MyDriver.java in setupDriver() method
